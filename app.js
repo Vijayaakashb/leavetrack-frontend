@@ -1,7 +1,7 @@
 /* ===== LEAVETRACK APP.JS ===== */
 /* shared javascript for all pages */
 
-var API = "https://leavetrack-backend.onrender.com";
+var API = "https://leavetrack-backend.onrender.com/api";
 
 // ---- AUTH HELPERS ----
 
