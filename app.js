@@ -25,12 +25,12 @@ function saveAuth(data) {
 
 function logout() {
     localStorage.clear();
-    window.location.href = "login.html";
+    window.location.href = "index.html";
 }
 
 function checkAuth() {
     if (!getToken()) {
-        window.location.href = "login.html";
+        window.location.href = "index.html";
     }
 }
 
